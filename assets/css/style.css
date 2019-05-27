@@ -1,25 +1,76 @@
-.row-med {
-    color: white;
-    background-color: rgba(0, 153, 255, 0.5);
-    margin-top: 30%;
-}
-
-body html {
+body, .container, .wrapper, .row{
     margin: 0;
     padding: 0;
+    width: 100vw;
 }
 
+
+#hosp-div {
+
+}
+#pharm-div {
+    height: 150px;
+    border-left: 1px solid white;
+}
+#checkup-div {
+    height: 150px;
+    border-left: 1px solid white;
+}
+#ambul-div {
+    height: 150px;
+    border-left: 1px solid white;
+}
+
+#med-data-cont {
+    position: relative;
+}
+#border-row {
+    /* margin-top: 50vh; */
+    position: absolute;
+    top: 63%;
+    z-index: 1;
+}
+#med-data-info {
+    position: absolute;
+    top:50%;
+}
 .med-data {
     padding: 0;
 }
 
+.med-container {
+    height: 300px;
+}
+
+
+.card-text {
+    height: 100%;
+    /* border: 1px solid white;*/
+}
+
+h5 {
+    margin-bottom: 15px;
+}
+
 .card {
-    margin-top: 55vh;
+    /* margin-top: 50vh; */
+    padding: 10px 25px;
     color: white;
-    background-color: rgba(0, 153, 255, 0.5);
+    background-color: rgba(0, 191, 255, 0.75);
     border: none;
     border-radius: 0px;
     text-align: center;
+}
+
+a:visited {
+    color: white;
+}
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+a {
+    color: inherit;
 }
 
 .backgroundimg {

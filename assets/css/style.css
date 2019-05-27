@@ -1,0 +1,41 @@
+.row-med {
+    color: white;
+    background-color: rgba(0, 153, 255, 0.5);
+    margin-top: 30%;
+}
+
+body html {
+    margin: 0;
+    padding: 0;
+}
+
+.med-data {
+    padding: 0;
+}
+
+.card {
+    margin-top: 55vh;
+    color: white;
+    background-color: rgba(0, 153, 255, 0.5);
+    border: none;
+    border-radius: 0px;
+    text-align: center;
+}
+
+.backgroundimg {
+    background-image: url('../images/stethoscopecomp.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+    .card {
+        margin-top: 2px;
+    }
+    .card-body {
+        padding: 18px;
+    }
+}

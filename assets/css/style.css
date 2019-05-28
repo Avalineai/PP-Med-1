@@ -72,7 +72,23 @@ a:hover {
 a {
     color: inherit;
 }
+.statsimg {
+    background-image: url('../images/docreport.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+}
 
+.numbers {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.stats-font {
+    font-size: 3em;
+}
 .backgroundimg {
     background-image: url('../images/stethoscopecomp.jpeg');
     background-size: cover;
